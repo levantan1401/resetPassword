@@ -1,5 +1,5 @@
 const sdk = new window.Appwrite();
-sdk.setEndpoint("https://reset-password-alpha.vercel.app/v1").setProject("653c7e3f9d64ecd21392");
+sdk.setEndpoint("https://cloud.appwrite.io/v1").setProject("653b9e4568854c39355d");
 
 const urlParams = new URLSearchParams(window.location.search);
 const userId = urlParams.get("userId");
