@@ -18,7 +18,7 @@ let promise = sdk.account.updateVerification(userId, secret);
 promise.then(function (res){
     console.log(res);
     document.getElementById("message").innerText = JSON.stringify(res);
-    window.location.replace('appwrite-callback-653b9e4568854c39355d://index');
+    window.location.replace('appwrite-callback-653b9e4568854c39355d://verified');
 }, function(error) {
     console.log(error);
     document.getElementById("message").innerText = JSON.stringify(error);
